@@ -1,13 +1,13 @@
 {% set name = "shapeography" %}
-{% set version = "1.0" %}
+{% set version = "1.1" %}
 
 package:
   name: {{ name|lower }}
-  version: {{ version }}
+  version: "{{ version }}"
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/shapeography-{{ version }}.tar.gz
-  sha256: 5acc8b3c3fe4f80f0f11aa568965fa8dc8236348cdec18b4bbedac516b5b328f
+  sha256: 6c3c467dd916f00e4957e0dc1e57824fab21a292e0a3e3c7aad6e45aaa7998c3
 
 build:
   noarch: python
